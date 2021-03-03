@@ -1,0 +1,380 @@
+body{background-image: url(../imagenes/Wood\ Background\ –\ Pattern.jpg);
+    background-size: cover;
+    }
+html{
+  scroll-behavior: smooth;
+}
+#wrapper{/*width: 80%;*/
+  position: absolute;
+    height: 100vh;
+    margin: auto;
+    
+}
+.jumbotron{
+  background-image: url(../imagenes/screen-10.jpg);
+  height: 655px;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+#tituloCamper{
+  position: relative;
+  background-color: #c0af8a;
+  float: left;
+  margin-left: 10%;
+  border-radius: 10%;
+  text-align: center;
+  box-shadow: #111111 10px 10px 10px;
+}
+#galeriaTitulo{
+  height: 60px;
+}
+
+#barraVanLifeTitulo{
+height: 60px;
+}
+#tituloCamperiza{
+  padding-top: 15px;
+  text-align: center;
+}
+#camperizaTuFurgoneta{
+  background-image: url(..//imagenes/Wood\ Background\ –\ Pattern.jpg);
+}
+#tiposdecamperTitulo{
+  height: 60px;
+  background-color: #342309;
+}
+#camperizaTuFurgonetaTitulo{
+  height: 60px;
+  background-color: #FA944B;
+  padding-top: 20px;
+}
+#tiposdecamper{
+  background-color: #FA944B;
+  padding-bottom: 30px;
+}
+#boton{
+  position: relative;
+  top: 200px;
+  left: 100px;
+  background-color: #F9F9F9;
+  background-size: cover;
+  box-shadow: chocolate 4px 4px 4px;
+  S
+}
+.text-white{
+  color: #F9F9F9;
+}
+#galeria{
+    background-color: #342309;
+    padding-bottom: 20px;
+}
+.bg-nav{
+  background-color: #c0af8a;
+}
+h1{
+    color: beige;
+    border-bottom: 5px white solid;
+    padding-bottom: 30px;
+    font-family: 'Anton', sans-serif;
+    font-size: 3em;
+    text-shadow: chocolate 4px 4px 4px;
+}
+h2{
+    color: beige;
+    font-family: 'Cinzel', serif;
+  
+}
+h3{
+  margin-top: 10px;
+  color: beige;
+  text-align: center;
+  border: beige 3px solid;
+  border-radius: 10%;
+  background-color: #c0af8a;
+  padding: 3px;
+  font-family: 'Cinzel', serif;
+}
+p{
+  font-family: 'Cinzel', serif;
+}
+
+#vanLife p{
+  font-size: 2em;
+  background-color: #504f4e;
+}
+#camperizaTuFurgoTitulo{
+  padding-top: 10px;
+  background-color: #c0af8a;
+}
+/****Carousel***/
+div#carousel { 
+  perspective: 1200px; 
+  background-image: url(../imagenes/road.jpg);
+  background-position: center;
+  padding-top: 10%; 
+  font-size:0; 
+  margin-bottom: 3rem; 
+  overflow: hidden; 
+}
+figure#spinner { 
+  transform-style: preserve-3d; 
+  height: 300px; 
+  transform-origin: 50% 50% -500px; 
+  transition: 1s; 
+} 
+figure#spinner img { 
+  border: #111111 solid 10px;
+  width: 40%; max-width: 425px; 
+  position: absolute; left: 30%;
+  transform-origin: 50% 50% -500px;
+  outline:1px solid transparent; 
+}
+figure#spinner img:nth-child(1) { transform:rotateY(0deg); 
+}
+figure#spinner img:nth-child(2) { transform: rotateY(-45deg); }
+figure#spinner img:nth-child(3) { transform: rotateY(-90deg); }
+figure#spinner img:nth-child(4) { transform: rotateY(-135deg); }
+figure#spinner img:nth-child(5){ transform: rotateY(-180deg); }
+figure#spinner img:nth-child(6){ transform: rotateY(-225deg); }
+figure#spinner img:nth-child(7){ transform: rotateY(-270deg); }
+figure#spinner img:nth-child(8){ transform: rotateY(-315deg); }
+div#carousel ~ span { 
+  color: #fff; 
+  margin: 5%; 
+  display: inline-block; 
+  text-decoration: none; 
+  font-size: 2rem; 
+  transition: 0.6s color; 
+  position: relative; 
+  margin-top: -6rem; 
+  border-bottom: none; 
+  line-height: 0; }
+div#carousel ~ span:hover { color: #888; cursor: pointer; }
+#legislacionTitulo{
+  height: 60px;
+  background-color: rgb(85, 83, 83);
+}
+  #legislacion{
+    background-image: linear-gradient(rgb(85, 83, 83), rgb(241, 176, 114));
+    padding-bottom: 30px;
+  }
+
+  /**********Acordeon************/
+  
+  #headingOne  {
+    background-image: linear-gradient(rgb(85, 83, 83), rgb(163, 133, 104));
+  }
+  #headingTwo{
+    background-image: linear-gradient(rgb(163, 133, 104), rgb(185, 140, 98));
+  }
+  #headingThree{
+    background-image: linear-gradient(rgb(185, 140, 98), rgb(204, 140, 81));
+    
+  }
+  #headingfor{
+    background-image: linear-gradient( rgb(204, 140, 81), rgb(241, 176, 114));
+    
+  }
+  
+/****************Slider**********************/
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+* {
+  box-sizing: border-box;
+}
+figure { 
+  margin: 0;
+  font-family: Istok Web, sans-serif;
+  font-weight: 100;
+}
+div#captioned-gallery { 
+  width: 100%; overflow: hidden; 
+}
+figure.slider { 
+  position: relative; width: 500%;
+  font-size: 0; animation: 30s slidy infinite; 
+}
+figure.slider figure { 
+  width: 20%; height: auto;
+  display: inline-block;  position: inherit; 
+}
+figure.slider img { width: 100%; height: auto; }
+figure.slider figure figcaption { 
+  position: absolute; bottom: 0;
+  background: rgba(0,0,0,0.4);
+  color: #fff; width: 100%;
+  font-size: 2rem; padding: .6rem; 
+}
+
+
+
+/*************FOOTER**************/
+footer {
+  background: #16222A;
+  background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
+  background: linear-gradient(59deg, #3A6073, #16222A);
+  color: white;
+}
+
+footer a {
+  color: #fff;
+  font-size: 14px;
+  transition-duration: 0.2s;
+}
+
+footer a:hover {
+  color: #FA944B;
+  text-decoration: none;
+}
+
+.copy {
+  font-size: 12px;
+  padding: 10px;
+  border-top: 1px solid #FFFFFF;
+}
+
+.footer-middle {
+  padding-top: 2em;
+  color: white;
+}
+
+
+/*SOCİAL İCONS*/
+
+/* footer social icons */
+
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left: 0 !important;
+  padding: 0;
+}
+
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+}
+
+
+/* footer social icons */
+
+.social-network a.icoFacebook:hover {
+  background-color: #3B5998;
+}
+
+.social-network a.icoLinkedin:hover {
+  background-color: #007bb7;
+}
+
+.social-network a.icoFacebook:hover i,
+.social-network a.icoLinkedin:hover i {
+  color: #fff;
+}
+
+.social-network a.socialIcon:hover,
+.socialHoverClass {
+  color: #44BCDD;
+}
+
+.social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
+}
+
+.social-circle li i {
+  margin: 0;
+  line-height: 30px;
+  text-align: center;
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.social-circle i {
+  color: #595959;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.social-network a {
+  background-color: #F9F9F9;
+}
+#formulario{
+  margin: auto;
+}
+#footer{
+  margin: auto;
+}
+/***MediaQuery***/
+@media only screen and (max-width:600px){
+.jumbotron h1{
+  padding-top: 20px;
+}
+#eligeMediaQuery{
+  margin-left: 0px;
+}
+#formulario{
+  width: 80%;
+  margin: auto;
+}
+
+}
+@media only screen and (max-width:900px){
+  figure#spinner img{
+    width: 80%;
+    margin: auto;
+  }
+  #eligeMediaQuery{
+    margin-left: 0px;
+  }
+
+}
+
+@media only screen and (max-width:1000px){
+  .footer-pad iframe{
+    width: 100%;
+  }
+  #eligeMediaQuery{
+    margin-left: 30px;
+  }
+}
+@media only screen and (max-width:1300px){
+  .footer-pad iframe{
+    width: 80%;
+  }
+  .footer-pad{
+    margin-right: 40px;
+  }
+}
